@@ -5,7 +5,7 @@ let Navigation = {
         {icon:'fab fa-linkedin-in',link:'https://www.linkedin.com/in/victor-zaporojan/'},
         {icon:'fab fa-github-alt',link:'https://github.com/vzapo'},
         {icon:'fab fa-twitter',link:'https://twitter.com/zapoVic'},
-        {icon:'far fa-envelope',link:'victor.zaporojan0@gmail.com'},
+        {icon:'far fa-envelope',link:'contact@victorz.me'},
         {icon:'fas fa-gamepad',link:'https://retroachievements.org/user/zapo'}]
     }
   },
