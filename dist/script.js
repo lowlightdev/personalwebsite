@@ -2,11 +2,11 @@ let Navigation = {
   data: function () {
     return {
       items: [
-        {icon:'fab fa-linkedin-in',link:'https://www.linkedin.com/in/victor-zaporojan/'},
-        {icon:'fab fa-github-alt',link:'https://github.com/vzapo'},
-        {icon:'fab fa-twitter',link:'https://twitter.com/zapoVic'},
-        {icon:'far fa-envelope',link:'contact@victorz.me'},
-        {icon:'fas fa-gamepad',link:'https://retroachievements.org/user/zapo'}]
+        {icon:'fab fa-linkedin-in', link:'https://www.linkedin.com/in/victor-zaporojan/'},
+        {icon:'fab fa-github-alt', link:'https://github.com/vzapo'},
+        {icon:'fab fa-twitter', link:'https://twitter.com/zapoVic'},
+        {icon:'far fa-envelope', link:'contact@victorz.me'},
+        {icon:'fas fa-gamepad', link:'https://retroachievements.org/user/zapo'}]
     }
   },
   template: `<nav class="navbar">
@@ -31,7 +31,7 @@ var app = new Vue({
       date:new Date().getFullYear(),
       colors: [],
       message: 'Hello Vue!',
-           description:"Enthusiastic software developer. I do stuff.<br> When I'm not busy I enjoy spending time playing retro console games and read or listen to audiobooks. I also have a lovely shih-tzu.<br> If you wanna talk more you can find me below"
+           description:"Enthusiastic software developer. I do stuff.<br> When I'm not busy I enjoy spending time playing retro console games and read or listen to audiobooks. I also have a lovely shih-tzu."
     }
   },
   components:{
