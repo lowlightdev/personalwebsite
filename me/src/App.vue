@@ -23,7 +23,8 @@ html,body{
   padding:0;
 }
 #app {
-  width:100%;
+  margin:auto;
+  max-width:960px;
   height:100%;
   text-align: center;
   display: flex;
