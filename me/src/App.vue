@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <Details />
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Details from './components/Details.vue';
-
 export default {
   name: 'App',
-  components: {
-    Details
-  }
 }
 </script>
 
@@ -25,8 +20,7 @@ html,body{
 #app {
   margin:auto;
   max-width:960px;
-  height:100%;
-  text-align: center;
+  min-height:100%;
   display: flex;
   padding:25px;
   align-items: center;
