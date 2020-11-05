@@ -11,18 +11,6 @@ export default {
 </script>
 
 <style lang="scss">
-html,body{
-  width:100%;
-  height:100%;
-  margin:0;
-  padding:0;
-}
-#app {
-  margin:auto;
-  max-width:960px;
-  min-height:100%;
-  display: flex;
-  padding:25px;
-  align-items: center;
-}
+@import '~@/scss/app.scss';
+
 </style>
